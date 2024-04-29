@@ -68,6 +68,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
+> If any errors appear under **Installing App Packages**, ignore them and continue
 
 #### Створіть файли завантажувача Windows
 > Якщо під час копіювання завантажувальних файлів виникає помилка, перевірте `diskpart`, щоб перевірити, чи є в ESPNABU літера Y. Якщо це не так, додайте будь-яку іншу літеру (наприклад, K) і замініть Y у наведеній нижче команді на зазначену літеру відповідно

@@ -19,7 +19,7 @@
 > [!Warning]
 > Unpowered USB devices will stop working
 
-Запустите [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V6.0.vbs) чтобы включить/выключить режим USB host и подтвердите что вы хотите включить/выключить USB host mode 
+Запустите [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) чтобы включить/выключить режим USB host и подтвердите что вы хотите включить/выключить USB host mode 
 
 #### Готово!
 
@@ -30,7 +30,7 @@
 
 ## Установка Microsoft Office
 
-- Скачайте этот [файл](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) на планшет  
+- Скачайте этот [файл](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) на планшет  
   
 - Отключите защитник Windows, чтобы избежать каких-либо проблем при установке
   

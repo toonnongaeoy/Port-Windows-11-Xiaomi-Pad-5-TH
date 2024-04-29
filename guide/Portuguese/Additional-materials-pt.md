@@ -20,7 +20,7 @@
 > Quando o modo USB host está ligado, os dispositovos conectados no USB do tablet vão ser alimentados pelo próprio tablet.
 > Sendo assim dispositivos que não têm alimentação/que precisam de alimentação/não tem bateria própria NÃO vão funcionar quando o modo USB host estiver desativado
 
-Execute o [Controle de USB Host](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V6.0.vbs) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
+Execute o [Controle de USB Host](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
 
 #### Concluído!
 
@@ -34,7 +34,7 @@ Execute o [Controle de USB Host](https://github.com/erdilS/Port-Windows-11-Xiaom
 
 
 ## Instalando o Microsoft Office / Microsoft 365
-- Faça o Download do [Arquivo ISO](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
+- Faça o Download do [Arquivo ISO](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) to the tablet
 - Use o botão direito do mouse no arquivo iso para montar e abrir no explorer
 - Execute o programa ```Office Tool Plus.exe``` para iniciar o wizard de instalação
 - Na janela que surgir, pressione `Yes`

@@ -27,7 +27,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!Warning]
 > Unpowered USB devices will stop working
 
-Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V6.0.vbs) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
+Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
 
 #### Finished!
 
@@ -41,7 +41,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 
 ## Install Microsoft Office / Microsoft 365
-- Download this [ISO file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
+- Download this [ISO file](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) to the tablet
 - Right-click on the iso file and select Mount to open it in explorer
 - Double-click on ```Office Tool Plus.exe``` to start the installation wizard
 - In the window that appears, click `Yes`

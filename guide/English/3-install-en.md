@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 > [!WARNING]
-> **PLEASE DON'T USE ANY VIDEO GUIDES ON AS THESE ARE USUALLY OUTDATED AND CAN AND PROBABLY WILL BRICK YOUR NABU BY USING THEM!!! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **PLEASE DON'T USE ANY VIDEO GUIDES AS THESE ARE USUALLY OUTDATED AND CAN AND PROBABLY WILL BRICK YOUR NABU!!! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Installation
 > [!NOTE]
@@ -27,10 +27,9 @@ fastboot boot <recovery.img>
 adb shell msc
 ```
 
-#### Start the Windows disk manager
+### Start the Windows disk manager
 > [!WARNING]
 > DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
-
 ```cmd
 diskpart
 ```
@@ -72,10 +71,11 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Installing drivers
-> If it says `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
-```cmd
- Open the folder with Drivers and run OfflineUpdater.cmd
-```
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+
+> If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be X), then press enter
+
+> If any errors appear under **Installing App Packages**, ignore them and continue
 
 #### Create Windows bootloader files for the EFI
 > If an error occurs when copying boot files, check `diskpart` to see if ESPNABU still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
