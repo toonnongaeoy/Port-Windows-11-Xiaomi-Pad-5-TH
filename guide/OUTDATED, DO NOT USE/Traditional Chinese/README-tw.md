@@ -30,7 +30,7 @@
 - [卸载,卸载](uninstall-tw.md)
 
 ## 杂项条文
-- [工程进度](status.md)
+- [工程进度](guide/OUTDATED,%20DO%20NOT%20USE/Traditional%20Chinese/status.md)
   
 - [故障排除](troubleshooting-tw.md)
   

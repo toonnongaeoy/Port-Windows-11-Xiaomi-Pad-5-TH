@@ -30,7 +30,7 @@ Questo progetto è in fase di sviluppo, tutti i file qui sono stati forniti da a
 - [Disinstallazione](uninstall-it.md)
 
 ## Varie
-- [Stato del progetto](status.md)
+- [Stato del progetto](guide/OUTDATED,%20DO%20NOT%20USE/Italian/status.md)
   
 - [Risoluzione dei problemi](troubleshooting-it.md)
   

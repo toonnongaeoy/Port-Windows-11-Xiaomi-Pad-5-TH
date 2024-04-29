@@ -33,7 +33,7 @@ Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của cá
 
 ## Các hướng dẫn khác
 
-- [Trạng thái dự án](status.md)
+- [Trạng thái dự án](guide/OUTDATED,%20DO%20NOT%20USE/Vietnamese/status.md)
 
 - [Vấn đề gặp phải](troubleshooting-vi.md)
 

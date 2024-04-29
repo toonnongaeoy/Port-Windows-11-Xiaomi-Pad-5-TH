@@ -4,7 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## 언어
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```**
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```** | [ไทย](README-TH.md) 
 
 > [!NOTE]
 > 영어 이외의 다른 언어는 항상 최신 상태가 아닐 수도 있습니다.
@@ -29,7 +29,7 @@
 
 
 ## 추가 정보
-- [프로젝트 지원 상태](status.md)
+- [프로젝트 지원 상태](guide/Korean/status.md)
 
 - [문제 해결](troubleshooting-ko.md)
 

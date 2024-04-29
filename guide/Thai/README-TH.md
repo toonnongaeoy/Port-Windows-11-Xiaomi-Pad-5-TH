@@ -1,51 +1,54 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
-# Xiaomi Pad 5'te Windows Çalıştırma
+# รัน Windows 11 บน Xiaomi Pad 5
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Dil
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | **```Türkçe```** | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | [ไทย](README-TH.md) 
+## Language 
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | **```ไทย```**
 
-> [!NOTE]
-> İngilizce dışındaki diğer diller her zaman güncel olmayabilir 
+## ⚠️ คำเตือน
+เราขอไม่รับผิดชอบถ้าหากเครื่องของคุณมีปัญหาหรือเปิดไม่ติด , ไดรฟ์ Recovery หาย, dead xiaomi factoryline workers cowboys, dead pmics, แรมเสีย, ไอซีจอเสีย, ซีพียูเสีย, any xiaomi shenanigans, dead cats or dogs, สงครามนิวเคลีย หรือ คุณโดนไล่ออกเพราะลืมกลับสู่แอนดรอยด์เพราะคุณตั้งนาฬิกาปลุกเอาไว้หรือคุณลืมอ่านไลน์กลุ่มอะไรก็ตาม.
 
-## ⚠️ Uyarı
-Brick edilmiş cihazlardan, eksik recovery bölümlerinden, ölü xiaomi fabrika işçişerinden, ölü şarj soketlerinden, ramlerden, ekranlardan, işlemcilerden, herhangi bir xiaomi saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya Android'e geri dönmeyi unuttuğunuz için alarm kuramadığındızan dolayı kovulmanızdan sorumlu değiliz.
+โปรเจกต์นี้ยังอยู่ในขั้นการพัฒนา, ไฟล์ในนี้ทั้งหมดมาจากการ contributed โดยผู้ใช้ท่านอื่น ๆ, ที่นี้คุณจะเจอวิธีการลงรวมถึงไฟล์ที่จำเป็นต้องใช้ในการติดตั้ง. This is a delicate process, do it under your own risk และทำตามขั้นตอนอย่างระมัดระวัง.
 
-Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıcının katkıları sayesindedir. Burada, elde etmeyi başardığımız çalışan dosyalarla bir rehber bulacaksınız. Bu hassas bir süreçtir, riski göze alıyorsanız yapın ve tüm adımları dikkatlice izleyin.
+**ถ้าคุณรู้สึกไม่สบายใจในการมอด (ดัดแปลง) แท็บเล็ตของท่านหรือไม่อยากยุ่งกับ Partition Table ของเครื่อง หรือ คุณกลัวว่าจะเผลอทำเครื่องบริค ปิดแท็บนี้ไปเดี๋ยวนี้!!! ถ้าคุณทำเครื่องบริค ชีวิตเป็นของพวกคุณนะครับ!!! เตือนแล้วนะ (เสียงเชฟป้อม)**
 
-**TABLETİNİZİ YA DA TABLETİN BÖLÜM TABLOSUNU MODİFİYE ETMEKTEN RAHATSIZSANIZ YA DA TABLETİNİZİ BRICK ETMEKTEN KORKUYORSANIZ ŞU AN UZAKLAŞIN!!! DİKKAT, TABLETİNİZİ BRICK EDERSENİZ KENDİ BAŞINIZASINIZ!!! BU KONUDA SİZİ UYARIYORUZ!!!**
+![[chefpomquote.png]]
+
+<center> เตือนแล้วนะ - หม่อมหลวงขวัญทิพย์ เทวกุล
+(https://www.facebook.com/masterchefthailand/photos/a.1883768168577967/1946072915680825/)</center>
 
 > [!WARNING]
-> 
-> **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR PLATFORMDA BULUNAN VIDEO REHBERLERİ KULLANMAYIN! BU VIDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! İLLA Kİ BİR VIDEO REHBERE İHTİYACINIZ VARSA [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANMIŞ BU [VIDEO REHBERİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
+> **อย่าทำตามที่สอนบน Youtube หรือบนแพลตฟอร์มอื่น! วิดีโอส่วนใหญ่ใช้วิธีลงอันเก่า ซึ่งอาจทำให้เครื่องบริคได้! แต่ถ้าต้องการทำตามคลิปจริง ๆ ให้ทำตามตาม [คลิปนี้](https://youtu.be/BbgTbTGbXYg) โดย [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) **
 
 
-## Başlangıç
-- [Kurulum](1-partition-tr.md)
-  
-- [Dualboot (çift sistem) Kurulumu](dualboot-tr.md)
-  
-- [Kaldırma](uninstall-tr.md)
+## เริ่มต้น
+- [การติดตั้ง](guide/English/1-partition-en.md)
 
-## Diğer
-- [Proje Durumu](status-tr.md)
-  
-- [Sorun giderme](troubleshooting-tr.md)
-  
-- [Sürücüleri Güncelleme](update-tr.md)
-  
-- [Yeniden kurulum](reinstall-tr.md)
-  
-- [UEFI Güncelleme](UEFI-updating-tr.md)
-  
-- [Faydalı uygulamalar ve talimatlar](/guide/Turkish/Additional-materials-tr.md)
+- [ตั้งค่าการสลับไป Android (Dualboot)](guide/English/dualboot-en.md)
+
+- [ถอนการติดตั้ง](guide/English/uninstall-en.md)
 
 
+## Miscellaneous
+- [สถานะโปรเจกต์](guide/Thai/status.md)
 
-## Katkıda Bulunanlar
+- [วิธีแก้ไขปัญหาเบื้องต้น](guide/English/troubleshooting-en.md)
+
+- [อัปเดตไดร์เวอร์](guide/English/update-en.md)
+
+- [Reinstallation](guide/English/reinstall-en.md)
+
+- [อัปเดท UEFI](guide/English/UEFI-updating-en.md)
+
+- [รูท Android ใหม่](guide/English/Re-rooting-en.md)
+
+- [Useful apps and instructions](guide/English/Additional-materials-en.md)
+
+
+
+## Contributors
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
@@ -71,6 +74,9 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 [<img alt="sercancamli" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sercancamli)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
+
+
+
 
 
 

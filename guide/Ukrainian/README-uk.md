@@ -4,7 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Мова
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | **```Ukrainian```** | [```한국어```](/guide/Korean/README-KO.md)
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | **```Ukrainian```** | [```한국어```](/guide/Korean/README-KO.md) | [ไทย](README-TH.md) 
 
 > [!NOTE]
 > Мови, окрім англійської, не завжди можуть бути актуальними 
@@ -28,7 +28,7 @@
 - [Видалення](uninstall-uk.md)
 
 ## Різне
-- [Статус проекту](status.md)
+- [Статус проекту](guide/Ukrainian/status.md)
   
 - [Діагностика](troubleshooting-uk.md)
   

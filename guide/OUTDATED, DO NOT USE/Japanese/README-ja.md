@@ -31,7 +31,7 @@
 - [アンインストール](uninstall-ja.md)
 
 ## 雑感
-- [プロジェクトの状況](status.md)
+- [プロジェクトの状況](guide/OUTDATED,%20DO%20NOT%20USE/Japanese/status.md)
   
 - [トラブルシューティング](troubleshooting-ja.md)
   
